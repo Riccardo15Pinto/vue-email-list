@@ -16,3 +16,6 @@ const app = Vue.createApp({
         }
     }
 });
+
+//print in DOM
+app.mount('#root');
