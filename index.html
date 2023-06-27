@@ -14,11 +14,20 @@
 </head>
 <body>
     <div id="root">
-        <!-- condition for the bonus -->
-        <ul v-if="emails.length === items">
-            <!-- print in page all content in the array -->
-            <li v-for="email in emails">{{email}}</li>
-        </ul>
+        <!-- container content -->
+        <div class="container">
+            <!-- blacboard -->
+            <div class="blackboard">
+                <!-- blackboard title -->
+                <h3>Client to inform:</h3>
+                <!-- blackboard list -->
+                <ul v-if="emails.length === items">
+                    <!-- condition for the bonus (top)-->
+                    <!-- print in page all content in the array -->
+                    <li v-for="email in emails">{{email}}</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <!-- my javascript  -->
     <script src="js/script.js"></script>
