@@ -7,3 +7,47 @@
 }
 
 /* Genereics */
+
+body{
+    background-color: #ffb047;
+}
+
+h3{
+    position: absolute;
+    margin: 10px;
+}
+
+ul{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+ul li{
+    padding-top:5px ;
+}
+
+/*container*/ 
+
+.container{
+    background-image: url(https://health.clevelandclinic.org/wp-content/uploads/sites/3/2020/06/ScreenTipsComputerVision-1175559067-770x533-1.jpg);
+    background-size: cover;
+    width: 1500px;
+    height: 800px;
+    margin: 60px auto;
+    border-radius: 30px;
+}
+
+/* blackboard*/
+
+.blackboard{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2tib2FyZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    width: 500px;
+    height: 300px;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 160px;
+    border: 10px solid lightgreen;
+    font-family: sans-serif;
+}
