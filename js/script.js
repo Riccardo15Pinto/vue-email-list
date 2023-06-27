@@ -14,7 +14,25 @@ const app = Vue.createApp({
             // create items
             items : 10,
         }
+    },
+    methods:{
+        //method for call tot number of emails by component 
+        getRandomEmails(){
+            for(let i = 0; i < this.items; i++){
+                axios.get(component)
+                    .then( (result) => {
+                        const email = result.data.response;
+                        console.log(email)
+                        this.emails.push(email);
+                    });
+            }
+        },
+    },
+    created(){
+        //at the start of the page
+        this.getRandomEmails();
     }
+
 });
 
 //print in DOM
